@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;  
     background-color: #E5E5E5;
-    margin-left: 150px;
+    margin: 0;
   
 }
 
@@ -45,12 +45,13 @@ p{
 .text{
     margin-top:140px;
     width:50%;
+    margin-left:150px;
 }
 .text img{
     width:80%;
-    margin-left:130px;
+    margin-left:100px;
     margin-top: -80px;
-    margin-right: 206px;
+    margin-right: 150px;
 }
 
 .flex{
@@ -69,7 +70,8 @@ section{
     height:350px;
     border:1px;
     border-radius: 5px;
-    margin-right: 24px;
+    margin-left:100px;
+    margin-right: 15px;
     padding-left: 24px;
     padding-right: 13px;
 }
@@ -90,10 +92,13 @@ section{
 .code img{
     width: 400px;
     height: 400px;
-    margin-right:72px;
+    margin-right:50px;
+    margin-left: 100px;
 }
 .know{
     margin-right: 106px;
+    margin-left: 100px;
+
 }
 hr{
     width:80%;
@@ -108,7 +113,6 @@ hr{
 }
 .description{
     font-size:20px;
-    text-align: justify;
 }
 footer{
     font-family: 'Luxurious Roman', cursive;
@@ -117,10 +121,12 @@ footer{
     color:white;
     background-color: black; 
     text-align: center;
+    width:100%;
 }
 footer h4{
     padding-top: 39px;
 }
 footer p{
     padding-bottom:46px;
+    margin: 0;
 }
