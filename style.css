@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;  
     background-color: #E5E5E5;
-    margin: 0;
+    margin:0;
   
 }
 
@@ -10,6 +10,12 @@ h1{
     font-size: 60px;
     color: black;
     text-shadow: 2px 4px 4px rgba(44, 42, 42, 0.25);
+    margin-left: 13px;
+}
+.border{
+    border-left:4px solid rgb(156, 156, 190);
+    border-radius:5px;
+    
 }
 h2{
     font-size: 48px;
@@ -45,13 +51,12 @@ p{
 .text{
     margin-top:140px;
     width:50%;
-    margin-left:150px;
+    margin-left:100px;
 }
 .text img{
     width:80%;
     margin-left:100px;
     margin-top: -80px;
-    margin-right: 150px;
 }
 
 .flex{
@@ -70,13 +75,13 @@ section{
     height:350px;
     border:1px;
     border-radius: 5px;
-    margin-left:100px;
-    margin-right: 15px;
+    margin-left:70px;
+    margin-right: 50px;
     padding-left: 24px;
     padding-right: 13px;
 }
 .box img{
-    width:141px;
+    width:150px;
     height:141px;
 
 }
@@ -122,11 +127,6 @@ footer{
     background-color: black; 
     text-align: center;
     width:100%;
+    padding:15px;
 }
-footer h4{
-    padding-top: 39px;
-}
-footer p{
-    padding-bottom:46px;
-    margin: 0;
-}
+
